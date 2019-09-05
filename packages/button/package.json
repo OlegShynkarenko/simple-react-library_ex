@@ -2,7 +2,6 @@
   "name": "simple-react-library_button-component",
   "version": "1.0.1",
   "description": "simple react button",
-  "author": "oshynkare <Qwerty1985Kh>",
   "homepage": "",
   "license": "ISC",
   "main": "lib/button.js",
