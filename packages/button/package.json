@@ -1,0 +1,26 @@
+{
+  "name": "simple-react-library_button-component",
+  "version": "1.0.0",
+  "description": "simple react button",
+  "author": "oshynkare <Qwerty1985Kh>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/button.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "tsc": "tsc"
+  },
+  "peerDependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "styled-components": "^4.3.2"
+  },
+  "gitHead": "61615dca0b50efc459aca8998eba9335d478c422"
+}
