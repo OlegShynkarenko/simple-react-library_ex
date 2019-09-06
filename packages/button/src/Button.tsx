@@ -21,7 +21,7 @@ const StyledButton = styled.button`
     } 
 `;
 
- export const Button = (props) => {
+ export const ButtonComponent = (props) => {
 
   return(
       <StyledButton type='button' onClick={props.onClick}
