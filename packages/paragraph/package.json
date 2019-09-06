@@ -1,5 +1,5 @@
 {
-  "name": "paragraph",
+  "name": "simple-paragraph_ex",
   "version": "1.0.2",
   "description": "example for testing lerna",
   "homepage": "https://github.com/OlegShynkarenko/simple-react-library_ex#readme",
@@ -21,5 +21,6 @@
   },
   "bugs": {
     "url": "https://github.com/OlegShynkarenko/simple-react-library_ex/issues"
-  }
+  },
+  "gitHead": "c654f06a8e7cc8146a99952e16bc99db99ce6448"
 }
