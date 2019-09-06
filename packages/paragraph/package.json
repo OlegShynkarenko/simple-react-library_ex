@@ -1,6 +1,6 @@
 {
   "name": "paragraph",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "example for testing lerna",
   "homepage": "https://github.com/OlegShynkarenko/simple-react-library_ex#readme",
   "license": "MIT",
