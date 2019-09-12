@@ -27,9 +27,10 @@ const StyledButton = styled.button`
 
   return(
       <StyledButton type={props.type} onClick={props.onClick}
-        appearance={props.appearance}>
+        appearance={props.appearance}
         width={props.width}
         height={props.height}
+      >
         {props.children}
       </StyledButton>
   )
