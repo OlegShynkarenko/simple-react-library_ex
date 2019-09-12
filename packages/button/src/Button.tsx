@@ -10,6 +10,8 @@ const StyledButton = styled.button`
   border: none;  
   font-weight: 500; 
   cursor: pointer;
+  width: ${props => props.width ? props.width : "auto"};
+  height: ${props => props.height ? props.height : "auto"};;
   color: ${props => props.appearance ? buttonAppearance[props.appearance].color : buttonAppearance.default.color};
   background: ${props => props.appearance ? buttonAppearance[props.appearance].background : buttonAppearance.default.background};
     &:hover {
@@ -24,8 +26,10 @@ const StyledButton = styled.button`
  export const ButtonComponent = (props) => {
 
   return(
-      <StyledButton type='button' onClick={props.onClick}
+      <StyledButton type={props.type} onClick={props.onClick}
         appearance={props.appearance}>
+        width={props.width}
+        height={props.height}
         {props.children}
       </StyledButton>
   )
